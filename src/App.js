@@ -6,10 +6,9 @@ function App() {
     // const [skipped, setSkipped] = React.useState(new Set());
 
   return (
-      <>
-        <Routes />
-      </>
-   
+    <>
+      <Routes />
+    </>    
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Stepper, Step, StepLabel, Typography } from '@material-ui/core';
 import { getSteps, } from '../scripts/steps';
 
-function Steps(props) {
+const Steps  = (props) => {
     const activeStep = props.activeStep
     const skipped = props.skipped;
     const steps = getSteps();
